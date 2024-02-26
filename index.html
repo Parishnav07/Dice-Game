@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body{
+            margin-top: 5%;
+            background-color:#35353F;
+            color:#44C496;
+        }
+
+        .container-dice{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows : 1fr 3fr;
+        }
+        .heading{
+            text-align: center;
+            font-size: 2rem;
+            font-family: 'Times New Roman', Times, serif;
+            margin-bottom: 10px;
+        }
+        .center-item-text{
+            text-align: center;
+            
+        }
+        .dice-out{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        img.dice-get{
+            border-radius: 20%;
+        }
+        .PName{
+            font-family: sans-serif;
+            font-weight: 100;
+        }
+
+        .footer{
+            text-align: center;
+            margin-top:20% ;
+            color: aliceblue;
+            font-family: cursive;
+        }
+        .small{
+            border-radius: 50%;
+        }
+    </style>
+    
+</head>
+
+<body>
+    <div class="heading" id="title"><h1>Refresh me</h1> </div>
+    <div class="container-dice">
+        <div class="grid-item center-item-text PName"><h3>Palyer 1</h3></div>
+        <div class="grid-item  center-item-text PName"><h3>Player 2</h3></div>
+        <div class="grid-item center-item dice-out"><img class="dice-get" id="randomImage1" src="inverted-dice-6.png" alt="" height="200px"></div>
+        <div class="grid-item center-item dice-out"><img  class="dice-get" id="randomImage2" src="./inverted-dice-6.png" alt="" height="200px"></div>
+    </div>
+
+    <div class="footer">
+        <p>www &nbsp;<img  class="small" src="./dice.png" height="20px">&nbsp;Parishnav Thokal&nbsp; <img  class="small" src="./dice.png" height="20px">&nbsp;com</p>
+    </div>
+
+    <script src="./index.js">
+
+    </script>
+
+
+</body>
+</html>

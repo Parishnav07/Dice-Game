@@ -1,0 +1,38 @@
+body{
+    background-color: grey;
+    margin: 2%;
+    
+}
+.dice-container{
+    height: 100vh;
+ 
+    
+}
+#title{
+    text-align: center;
+}
+.center{
+    text-align: center;
+    
+}
+
+
+
+
+.dice{
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr;
+    gap:10px;
+    
+}
+img{
+    align-items: center;
+    border-radius: 20%;
+    
+}
+.playerName{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr;
+}
